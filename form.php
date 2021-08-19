@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
     $message=$_POST['message'];
 
     $outcome=$obj->addtodb($name,$email,$message);
-    if($outcome){ header("location:http://localhost/stage2task/index.php?sentform#contactme");}
+    if($outcome){ header("location:http://stage-2-task.herokuapp.com/index.php?sentform#contactme");}
 }
 
 
@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
                 </tr>
                 <?php $obj->readfromdb();?>
            </table>
-           <a href="index.php" class="offset-md-2 col-md-8 col-sm-12">Back Home</a>
+           <a href="stage-2-task.herokuapp.com/index.php" class="offset-md-2 col-md-8 col-sm-12">Back Home</a>
 		
             
         </div>
