@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
                 </tr>
                 <?php $obj->readfromdb();?>
            </table>
-           <a href="stage-2-task.herokuapp.com/index.php" class="offset-md-2 col-md-8 col-sm-12">Back Home</a>
+           <a href="index.php" class="offset-md-2 col-md-8 col-sm-12">Back Home</a>
 		
             
         </div>
